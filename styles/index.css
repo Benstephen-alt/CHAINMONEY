@@ -6,6 +6,7 @@ body {
 
 p {
     color: white;
+    font-size: clamp(2rem, 0.7179487179487178rem + 5.47008547008547vw, 4rem);
 }
 
 
@@ -144,6 +145,7 @@ color: beige;
 
 .sale-div {
     width: auto;
+    max-width: fit-content;
     border: 5px solid;
     border-radius: 50px;
     padding: 30px 30px 30px 30px;

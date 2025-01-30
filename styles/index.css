@@ -72,6 +72,7 @@ height: auto;
 
 .header {
     display: flex;
+    flex: 100%;
 font-size: 175px;
 font-weight: bolder;
 animation: anihead 1s ease;
@@ -174,13 +175,13 @@ color: beige;
 
 .sale-div {
     display: flex;
-    flex: 100%;
+    width: 100%;
     flex-direction: column;
     border: 5px solid;
     border-radius: 50px;
-    padding: 30px 30px 30px 30px;
-    margin-left: 150px;
-    margin-right: 150px;
+    padding: 2rem 2rem 2rem 2rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
     margin-bottom: 100px;
     margin-top: 50px;
     background-color: beige;

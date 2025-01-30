@@ -43,14 +43,14 @@ height: auto;
     
 }
 
-@media (max-width:475px) {
+@media (min-width:475px) {
     .main-content {max-width: 475px;
     flex-direction: column;}
 .main-img {width: 29rem;}
 
 }
 
-@media (max-width:640px) {
+@media (min-width:640px) {
     .main-content {max-width: 640px;
     flex-direction: row;}
     .main-img {width: 40rem; }
